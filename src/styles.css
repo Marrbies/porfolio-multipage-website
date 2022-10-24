@@ -1,0 +1,159 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 0 auto;
+  max-width: 100%;
+
+  background-color: #f2f2f2;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs {
+  margin: 10px;
+  text-align: center;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 22px;
+  text-decoration: none;
+  color: #c3bef0;
+}
+.email-link:hover {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 22px;
+  text-decoration: underline;
+  color: #885df1;
+  transition: 250ms;
+}
+
+
+
+
+#yougurtImg {
+  max-width: 100%;
+}
+.weather-app,
+.greek-yogurt,
+.yoga-description {
+  background-color: #ffffff;
+  border: 3px;
+  border-color: black;
+  border-radius: 5px;
+  text-align: justify;
+}
+#app-name {
+  text-align: center;
+}
+#appButton {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  padding: 15px 30px;
+  border: 2px;
+  border-radius: 6px;
+  border-color: #6c63ff;
+  background-color: #6c63ff;
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 10px;
+  text-decoration: none;
+  box-shadow: small;
+}
+#appButton:hover {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  padding: 15px 30px;
+  border: 2px;
+  border-radius: 6px;
+  border-color: #8a2be2;
+  background-color: #ffffff;
+  color: #6c63ff;
+  font-size: 16px;
+  transition: 250ms;
+  margin-top: 10px;
+  box-shadow: small;
+}
+#aboutMe {
+  font-size: 68px;
+}
+#subparaghraph {
+  color: #352f44;
+  font-size: 20px;
+}
+#contact-paraghraph {
+  font-size: 24px;
+}
